@@ -14,6 +14,7 @@
 - App also implemented with search functionality. 
 - You can directly search your favorite team and see previous machetes as well as upcoming matches. 
 
+> Note: thesportdb.com does not offer free service for live mathces, so this app doesn't let you track live matches 
 
 
 ***INSERT ANOTHER GRAPHIC HERE***
