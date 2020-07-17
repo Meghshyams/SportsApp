@@ -17,9 +17,9 @@
 > Note: thesportdb.com does not offer free service for live mathces, so this app doesn't let you track live matches 
 
 
-***INSERT ANOTHER GRAPHIC HERE***
+***App Home Screen***
 
-[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
+[![INSERT YOUR GRAPHIC HERE](https://www.meghshyam.com/photos/HOMESCREEN.png]()
 
 - Most people will glance at your `README`, *maybe* star it, and leave
 - Ergo, people should understand instantly what your project is about based on your repo
