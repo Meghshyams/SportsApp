@@ -6,12 +6,12 @@
 
 > Using Free API- thesportdb.com 
 
--At the home screen of (app) a you can see all the sports available on thesportdb.com 
--Whenever you click on your favorite sport, the app will ask to choose league. 
--After clicking on the league, you can see different teams. 
--You can click on any team and see there previous and upcoming mathces. 
--App also implemented with search functionality. 
--You can directly search your favorite team and see previous machetes as well as upcoming matches. 
+- At the home screen of (app) a you can see all the sports available on thesportdb.com 
+- Whenever you click on your favorite sport, the app will ask to choose league. 
+- After clicking on the league, you can see different teams. 
+- You can click on any team and see there previous and upcoming mathces. 
+- App also implemented with search functionality. 
+- You can directly search your favorite team and see previous machetes as well as upcoming matches. 
 
 
 
