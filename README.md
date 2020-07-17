@@ -6,6 +6,7 @@
 
 > Using Free API- thesportdb.com 
 
+
 - At the home screen of (app) a you can see all the sports available on thesportdb.com 
 - Whenever you click on your favorite sport, the app will ask to choose league. 
 - After clicking on the league, you can see different teams. 
