@@ -19,22 +19,31 @@
 
 ***App Home Screen***
 
-| ![Homescreen](https://www.meghshyam.com/photos/HOMESCREEN.png)| ![Leage](https://www.meghshyam.com/photos/leage.png)| 
+<p align="center">
+  <img width="460" height="600" src="https://www.meghshyam.com/photos/HOMESCREEN.png">
+</p> 
 
 
 ***Choose League Screen***
 
-![Leage](https://www.meghshyam.com/photos/leage.png)
+<p align="center">
+  <img width="460" height="600" src="https://www.meghshyam.com/photos/leage.png">
+</p> 
 
 
 ***Choose Team Screen***
 
-![Team](https://www.meghshyam.com/photos/chooseteam.png)
+<p align="center">
+  <img width="460" height="600" src="https://www.meghshyam.com/photos/chooseteam.png">
+</p> 
 
 
 ***Track Team Screen***
 
-![TRack](https://www.meghshyam.com/photos/historyoeteam.png)
+<p align="center">
+  <img width="460" height="600" src="https://www.meghshyam.com/photos/historyoeteam.png">
+</p> 
+
 
 
 
