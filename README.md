@@ -19,7 +19,7 @@
 
 ***App Home Screen***
 
-https://www.meghshyam.com/photos/HOMESCREEN.png
+![Homescreen](https://www.meghshyam.com/photos/HOMESCREEN.png)
 
 - Most people will glance at your `README`, *maybe* star it, and leave
 - Ergo, people should understand instantly what your project is about based on your repo
