@@ -21,6 +21,26 @@
 
 ![Homescreen](https://www.meghshyam.com/photos/HOMESCREEN.png)
 
+
+***Choose League Screen***
+
+![Leage](https://www.meghshyam.com/photos/leage.png)
+
+
+***Choose Team Screen***
+
+![Team](https://www.meghshyam.com/photos/chooseteam.png)
+
+
+***Track Team Screen***
+
+![TRack](https://www.meghshyam.com/photos/historyoeteam.png)
+
+
+
+
+
+
 - Most people will glance at your `README`, *maybe* star it, and leave
 - Ergo, people should understand instantly what your project is about based on your repo
 
