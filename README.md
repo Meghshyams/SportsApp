@@ -4,7 +4,7 @@
 
 > This App let you track your favorite sport games on demand
 
-> Sport Tracker- thesportdb.com 
+> Using Free API- thesportdb.com 
 
 
 ***INSERT ANOTHER GRAPHIC HERE***
