@@ -1,8 +1,8 @@
 # The Personal Sport Tracking App Using Free REST Api thesportdb.com 
 
-> Subtitle or Short Description Goes Here
+> Sport Tracking Android App
 
-> ideally one sentence
+> This App let you track your favorite sport games on demand
 
 > include terms/tags that can be searched
 
