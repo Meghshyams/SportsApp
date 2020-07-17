@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.meghshyam.restapi.SportsApp.viewmodel.EventListViewModel"/>
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPrevious"
+        android:text="Next Matches"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          app:cardElevation="2dp"
+          app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:text="@{viewModel.teamname}"
+                tools:text="Item Title"/>
+
+            <TextView
+                android:id="@+id/title_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:text="@{viewModel.date}"
+                tools:text="Item Title"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:text="@{viewModel.teamname2}"
+                tools:text="Item Title"/>
+
+            <TextView
+                android:id="@+id/title_date2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:text="@{viewModel.date2}"
+                tools:text="Item Title"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:text="@{viewModel.teamname3}"
+                tools:text="Item Title"/>
+
+            <TextView
+                android:id="@+id/title_date3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:text="@{viewModel.date3}"
+                tools:text="Item Title"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:text="@{viewModel.teamname4}"
+                tools:text="Item Title"/>
+
+            <TextView
+                android:id="@+id/title_date4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:text="@{viewModel.date4}"
+                tools:text="Item Title"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:text="@{viewModel.teamname5}"
+                tools:text="Item Title"/>
+
+            <TextView
+                android:id="@+id/title_date5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:text="@{viewModel.date5}"
+                tools:text="Item Title"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNext"
+        android:text="Previous Matches"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tvp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:text="@{viewModel.teamnamep}"
+                tools:text="Item Title"/>
+
+            <TextView
+                android:id="@+id/title_datep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:text="@{viewModel.datep}"
+                tools:text="Item Title"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tvp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:text="@{viewModel.teamnamep2}"
+                tools:text="Item Title"/>
+
+            <TextView
+                android:id="@+id/title_datep2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:text="@{viewModel.datep2}"
+                tools:text="Item Title"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tvp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:text="@{viewModel.teamnamep3}"
+                tools:text="Item Title"/>
+
+            <TextView
+                android:id="@+id/title_datep3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:text="@{viewModel.datep3}"
+                tools:text="Item Title"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tvp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:text="@{viewModel.teamnamep4}"
+                tools:text="Item Title"/>
+
+            <TextView
+                android:id="@+id/title_datep4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:text="@{viewModel.datep4}"
+                tools:text="Item Title"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tvp5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                app:text="@{viewModel.teamnamep5}"
+                tools:text="Item Title"/>
+
+            <TextView
+                android:id="@+id/title_datep5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:text="@{viewModel.datep5}"
+                tools:text="Item Title"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+    </ScrollView>
+</layout>

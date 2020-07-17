@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.meghshyam.restapi.SportsApp.viewmodel.LeagueViewModel"/>
+    </data>
+
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/data_recycler_view2"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_height="match_parent"
+        app:adapter="@{viewModel.adapter}"
+        app:data="@{viewModel.data}"
+        tools:context="com.meghshyam.restapi.SportsApp.view.MainActivity"/>
+</layout>
