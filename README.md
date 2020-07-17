@@ -17,28 +17,26 @@
 > Note: thesportdb.com does not offer free service for live mathces, so this app doesn't let you track live matches 
 
 
-***App Home Screen***
+<p align="center"> <b> *App Home Screen*</p> </b>
 
 <p align="center">
   <img width="460" height="600" src="https://www.meghshyam.com/photos/HOMESCREEN.png">
 </p> 
 
 
-***Choose League Screen***
+<p align="center"> <b>*Choose League Screen*</p> </b>
 
 <p align="center">
   <img width="460" height="600" src="https://www.meghshyam.com/photos/leage.png">
 </p> 
 
-
-***Choose Team Screen***
+<p align="center"> <b>*Choose Team Screen*</p> </b>
 
 <p align="center">
   <img width="460" height="600" src="https://www.meghshyam.com/photos/chooseteam.png">
 </p> 
 
-
-***Track Team Screen***
+<p align="center"> <b>*Track Team Screen*</p> </b>
 
 <p align="center">
   <img width="460" height="600" src="https://www.meghshyam.com/photos/historyoeteam.png">
