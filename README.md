@@ -19,7 +19,7 @@
 
 ***App Home Screen***
 
-![Homescreen](https://www.meghshyam.com/photos/HOMESCREEN.png)
+| ![Homescreen](https://www.meghshyam.com/photos/HOMESCREEN.png)| ![Leage](https://www.meghshyam.com/photos/leage.png)| 
 
 
 ***Choose League Screen***
