@@ -44,18 +44,14 @@
 
 
 
+> Technology Used 
+
+- This app produced using MVVM architecture 
+- Used REST Api 
+- Intrgated with Google Analytics 
+- Intrgated with Google AdMobi  
 
 
-
-
-- Most people will glance at your `README`, *maybe* star it, and leave
-- Ergo, people should understand instantly what your project is about based on your repo
-
-> Tips
-
-- HAVE WHITE SPACE
-- MAKE IT PRETTY
-- GIFS ARE REALLY COOL
 
 > GIF Tools
 
