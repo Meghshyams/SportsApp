@@ -46,7 +46,7 @@
 
 > Technology Used 
 
-- This app produced using MVVM architecture 
+- This app produced using Model View View Model (MVVM) architecture 
 - Used REST Api 
 - Intrgated with Google Analytics 
 - Intrgated with Google AdMobi  
