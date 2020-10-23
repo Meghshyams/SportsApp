@@ -43,8 +43,7 @@
 
 
 
-
-> Technology Used 
+## Technology Used 
 
 - This app produced using Model View View Model (MVVM) architecture 
 - Used REST Api 
