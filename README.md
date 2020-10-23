@@ -51,7 +51,7 @@
 - Intrgated with Google AdMobi  
 
 
-<b> Note: </b> thesportdb.com does not offer free service for live mathces, so this app doesn't let you track live matches 
+<b> Note: </b> < a href://thesportdb.com > thesportdb.com </a> does not offer free service for live mathces, so this app doesn't let you track live matches 
 
 Contribute ? Pull Request! 
 
