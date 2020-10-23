@@ -4,7 +4,7 @@
 
 > This App let you track your favorite sport games on demand
 
-> Using Free API- thesportsdb.com 
+> Using Free API- <a href="http://thesportsdb.com">thesportdb.com</a>
 
 
 - At the home screen of (app) a you can see all the sports available on thesportdb.com 
