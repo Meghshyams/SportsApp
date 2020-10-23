@@ -4,7 +4,7 @@
 
 > This App let you track your favorite sport games on demand
 
-> Using Free API- <a href="http://thesportsdb.com">thesportdb.com</a>
+> Using Free API- <a href="http://thesportsdb.com">thesportsdb.com</a>
 
 
 - At the home screen of (app) a you can see all the sports available on thesportdb.com 
@@ -51,7 +51,7 @@
 - Intrgated with Google AdMobi  
 
 
-<b> Note: </b>  <a href="http://thesportsdb.com">thesportdb.com</a> does not offer free service for live mathces, so this app doesn't let you track live matches 
+<b> Note: </b>  <a href="http://thesportsdb.com">thesportsdb.com</a> does not offer free service for live mathces, so this app doesn't let you track live matches 
 
 Contribute ? Pull Request! 
 
