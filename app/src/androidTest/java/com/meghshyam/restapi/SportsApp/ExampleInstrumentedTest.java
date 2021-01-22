@@ -9,6 +9,9 @@ import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 // This is just a testing of a gittower working; 
+
+
+// This is another testing of a branch in a gittower
 /**
  * Instrumentation test, which will execute on an Android device.
  *
