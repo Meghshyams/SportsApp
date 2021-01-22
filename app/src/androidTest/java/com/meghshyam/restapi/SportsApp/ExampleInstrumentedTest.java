@@ -8,7 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
-
+// This is just a testing of a gittower working; 
 /**
  * Instrumentation test, which will execute on an Android device.
  *
