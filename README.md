@@ -55,4 +55,9 @@
 
 Contribute ? Pull Request! 
 
-
+//Checking the merging of branch 
+//Again testing 
+<<<<<<< HEAD
+// Testing 3
+=======
+>>>>>>> Update README.md
