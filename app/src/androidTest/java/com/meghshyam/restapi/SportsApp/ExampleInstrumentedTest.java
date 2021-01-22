@@ -27,3 +27,4 @@ public class ExampleInstrumentedTest {
         assertEquals("com.phunware.example.mvvmrecyclerviewblog", appContext.getPackageName());
     }
 }
+//changes is going to be on a master branch 
